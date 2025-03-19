@@ -39,7 +39,7 @@ function garis() {
 echo -e "${CY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
 
-url_izin="https://raw.githubusercontent.com/Tomketstore/izin/main/ip"
+url_izin="https://raw.githubusercontent.com/liontunnel/izin/main/ip"
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
@@ -56,7 +56,7 @@ echo -e "            \033[0;35mPERMISSION DENIED !${exitsc}"
 echo -e "   ${j}Your VPS${exitsc} $ipsaya ${j}Has been Banned${exitsc}"
 echo -e "     ${j}Buy access permissions for scripts${exitsc}"
 echo -e "             ${j}Contact Admin :${exitsc}"
-echo -e "      \033[0;36mWhatsapp${exitsc} wa.me/6285879296673"
+echo -e "      \033[0;36mWhatsapp${exitsc} wa.me/6287835373265"
 lane
 exit
 fi
@@ -130,7 +130,7 @@ garis
 echo "USERNAME: $user"
 echo "Delete success!!"
 garis
-echo -e "${GREEN}| \E[44;1;39m      TOMKET STORE            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      LION STORE            \E[0m|"
 garis
 }
 
@@ -150,7 +150,7 @@ garis
 echo "USERNAME: $user"
 echo "renew success!!"
 garis
-echo -e "${GREEN}| \E[44;1;39m      TOMKET STORE            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      LION STORE            \E[0m|"
 garis
 }
 
@@ -171,7 +171,7 @@ garis
 echo "USERNAME: $user"
 echo "locked success!!"
 garis
-echo -e "${GREEN}| \E[44;1;39m      TOMKET STORE            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      LION STORE            \E[0m|"
 garis
 }
 
@@ -189,7 +189,7 @@ garis
 noobzvpns --info-all-user | awk '/^\s*\+.*-> active/ {gsub(/(issued\(yyyymmdd\)|hash_key): [0-9a-f]+/, ""); print; getline; print; getline; getline; getline; print; print "═══════════════════"}'
 
 garis
-echo -e "${GREEN} \E[44;1;39m      TOMKET STORE            \E[0m"
+echo -e "${GREEN} \E[44;1;39m      LION STORE            \E[0m"
 garis
 }
 
@@ -209,7 +209,7 @@ garis
 echo "USERNAME: $user"
 echo "unlocked success!!"
 garis
-echo -e "${GREEN}| \E[44;1;39m      TOMKET STORE            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      LION STORE            \E[0m|"
 garis
 }
 
@@ -241,7 +241,7 @@ garis
 echo "USERNAME: $user"
 echo "unlocked success!!"
 garis
-echo -e "${GREEN}| \E[44;1;39m     TOMKET STORE            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m     LION STORE            \E[0m|"
 garis
 }
 
@@ -264,7 +264,7 @@ echo -e "[06] SHOW ALL USER NOOBZVPNS"
 echo -e "[07] REMOVE ALL USER NOOBZVPNS"
 echo -e "[00] BACK TO MAIN MENU"
 garis
-echo -e "${GREEN} \E[44;1;39m            TOMKET STORE            \E[0m"
+echo -e "${GREEN} \E[44;1;39m            LION STORE            \E[0m"
 garis
 echo -e ""
 echo
