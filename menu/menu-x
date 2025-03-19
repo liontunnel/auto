@@ -33,7 +33,7 @@ SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo ""
-izinsc="https://raw.githubusercontent.com/Tomketstore/izin/main/ip"
+izinsc="https://raw.githubusercontent.com/liontunnel/izin/main/ip"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl ${izinsc} | grep $MYIP | awk '{print $2}')
@@ -121,7 +121,7 @@ clear
 
 echo -e " "
 echo -e "   ${Blue}╭════════════════════════════════════════════╮${NC}"
-echo -e "   ${Blue}│$NC${f}        Welcome To Villain Tunneling        $NC${Blue}│$NC"
+echo -e "   ${Blue}│$NC${f}        Welcome To Lion Tunneling        $NC${Blue}│$NC"
 echo -e "   ${Blue}╰════════════════════════════════════════════╯${NC}"
 echo -e " ${YELL}╭══════════════════════════════════════════════════╮${NC}"
 echo -e "   ${z}$NC [${f}01${NC}]$grenbo MENU TRIAL$NC       ${z}   $NC [${f}08${NC}]$purple BACKUP/ RESTORE "    
@@ -136,8 +136,8 @@ echo -e "   ${y} ═════════════════════
 echo -e "   ${r} PILIH MENU DENGAN CARA KETIK 1/14 LALU ENTER $NC"
 echo -e "   ${y} ════════════════════════════════════════════"
 echo -e "   ${Blue}╭═══════════════════════════════════════${NC}"
-echo -e "   ${Blue}│$NC${f} Developer$NC  ${z}=$NC TOMKET × VILLAIN"
-echo -e "   ${Blue}│$NC${f} Telegram$NC   ${z}=$NC @tomketvpn"
+echo -e "   ${Blue}│$NC${f} Developer$NC  ${z}=$NC LION × TUNNEL"
+echo -e "   ${Blue}│$NC${f} Telegram$NC   ${z}=$NC @FanoraVpnTunnel"
 echo -e "   ${Blue}│$NC${f} IP ADDRESS$NC ${z}=$NC $IPVPS${NC}"
 echo -e "   ${Blue}│$NC${f} User$NC       ${z}=$NC $username"
 echo -e "   ${Blue}│$NC${f} Exp Script$NC ${z}=$NC $exp $certifacate Days$NC $sts"
@@ -235,7 +235,7 @@ kontol
 ;;
 12)
 clear
-wget -q https://raw.githubusercontent.com/Tomketstore/aut1/main/update.sh
+wget -q https://raw.githubusercontent.com/liontunnel/auto/main/update.sh
 chmod +x update.sh
 ./update.sh
 ;;
