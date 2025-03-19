@@ -41,10 +41,10 @@ date_list=$(date +"%Y-%m-%d" -d "$data_server")
 
   # // Banner
 echo -e "${YELLOW}=========================================================${NC}"
-echo -e " WELCOME TO TOMKET TUNNELING SCRIPT ${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
+echo -e " WELCOME TO LION TUNNELING SCRIPT ${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
 echo -e " HATI-HATI SCRIPT INI TERPASANG BACKDOR ⚠️"
 echo -e "${purple}=========================================================${NC}"
-echo -e " ›AUTHOR : ${green}TOMKET STORE ${NC}${YELLOW}(${NC}${green}V.5${NC}${YELLOW})${NC}"
+echo -e " ›AUTHOR : ${green}LION STORE ${NC}${YELLOW}(${NC}${green}V.5${NC}${YELLOW})${NC}"
 echo -e " ›TEAM : VILLAIN TUNNELLING ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}=========================================================${NC}"
 echo ""
@@ -98,7 +98,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Tomketstore/SC-TOMKETVPN/main/"
+    REPO="https://raw.githubusercontent.com/liontunnel/auto/main/"
 
 ####
 start=$(date +%s)
@@ -285,7 +285,7 @@ curl "ipinfo.io/city?token=7a814b6263b02c" > /root/.city
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/Tomketstore/izin/main/ip"
+izinsc="https://raw.githubusercontent.com/liontunnel/izin/main/ip"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -343,7 +343,7 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <b> TOMKET VPN STORE SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/Tomketvpn"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/FanoraVpnTunnel"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -550,7 +550,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/Tomketstore/SC-TOMKETVPN/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/liontunnel/auto/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
@@ -988,7 +988,7 @@ secs_to_human "$(($(date +%s) - ${start}))"
 sudo hostnamectl set-hostname $username
 echo ""
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
-echo -e "\e[96;1m          -[ TOMKET TUNNELING PROJECT ]-                 \e[0m"
+echo -e "\e[96;1m          -[ LION TUNNELING PROJECT ]-                 \e[0m"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
 echo -e ""
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
@@ -1019,7 +1019,7 @@ echo -e "\033[0;32m└───────────────────�
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
 echo -e "\e[92;1m               [ TERIMAKASIH ]                      \e[0m"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
-echo -e "t.me/Tomketstore"
+echo -e "t.me/FanoraVpnTunnel"
 echo -e " TERIMAKASIH SUDAH MENGGUNAKAN LAYANAN SC VPN PREMIUM"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
 echo -e ""
