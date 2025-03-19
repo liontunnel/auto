@@ -9,7 +9,7 @@ y="\033[0;33m"
 NC="\033[0m"
 
 # // Izin IP
-url_izin="https://raw.githubusercontent.com/Tomketstore/izin/main/ip"
+url_izin="https://raw.githubusercontent.com/liontunnel/izin/main/ip"
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
@@ -42,7 +42,7 @@ sleep 1
 echo -e ""
 garis 
 echo -e "${ungu}      Terimakasih sudah menggunakan-"
-echo -e "        Script premium by Tomket store"
+echo -e "        Script premium by lion store"
 garis
 echo -e ""
 exit 0
@@ -52,7 +52,7 @@ function LOGO() {
 clear
 echo -e ""
 garis
-echo -e "${ungu}            Tomket store            "
+echo -e "${ungu}            lion store            "
 garis
 echo -e ""
 }
