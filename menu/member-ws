@@ -1,10 +1,10 @@
 #!/bin/bash
 # //====================================================
 # //	System Request:Debian 9+/Ubuntu 18.04+/20+
-# //	Author:	YSSHstore
+# //	Author:	LION TUNNEL
 # //	Dscription: Xray Menu Management
 # //	email: admin@yogz.com
-# //  telegram: https://t.me/YSSHstore
+# //  telegram: https://t.me/FanoraVpnTunnel
 # //====================================================
 Green="\e[92;1m"
 RED="\033[31m"
@@ -14,7 +14,7 @@ gg='\e[1;77m' #ijo tebel
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/Tomketstore/izin/main/ip"
+data_ip="https://raw.githubusercontent.com/liontunnel/izin/main/ip"
 domain=$(cat /etc/xray/domain)
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
@@ -22,15 +22,15 @@ checking_sc() {
     echo -ne
   else
     echo -e "${OR}────────────────────────────────────────────${NC}"
-    echo -e "\033[42m          TOMKET AUTOSCRIPT          ${NC}"
+    echo -e "\033[42m          LION AUTOSCRIPT          ${NC}"
     echo -e "${OR}────────────────────────────────────────────${NC}"
     echo -e ""
     echo -e "            ${RED}PERMISSION DENIED !${NC}"
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      ${Green}WhatsApp${NC} wa.me/6281215360549"
-    echo -e "         \033[0;36mTelegram${NC} t.me/ohmyvillain"
+    echo -e "      ${Green}WhatsApp${NC} wa.me/6287835373265"
+    echo -e "         \033[0;36mTelegram${NC} t.me/FanoraVpnTunnel"
     echo -e "${OR}────────────────────────────────────────────${NC}"
     exit
   fi
