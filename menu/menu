@@ -33,7 +33,7 @@ SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo ""
-izinsc="https://raw.githubusercontent.com/Tomketstore/izin/main/ip"
+izinsc="https://raw.githubusercontent.com/liontunnel/izin/main/ip"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl ${izinsc} | grep $MYIP | awk '{print $2}')
@@ -161,7 +161,7 @@ a=" ${CYAN}ACCOUNT PREMIUM"
 #clear
 echo -e " "
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC${f}          Welcome To Script Premium VILLAIN TUNNEL        $NC${z}│$NC"
+echo -e " ${z}│$NC${f}          Welcome To Script Premium LION TUNNEL        $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}══════════════════════════════════════════════════════════${NC}"
 echo -e " ${z}$NC$r ⇲ $NC$y System OS ${NC}     $Blue=$NC $MODEL${NC}"
@@ -196,8 +196,8 @@ echo -e "           ${z}$NC [${r}04${NC}]$green MENU TROJAN$NC  ${z}│$NC [${r}
 echo -e "    ${z}══════════════════════════════════════════════════════${NC}"
 echo -e "            ${KIRI}${z} INFORMATION YOUR ACTIVE PERIOD ${z}${KANAN}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC${z} Developer$NC  ${z}=$NC TOMKET × VILLAIN"
-echo -e " ${z}│$NC${z} Telegram$NC   ${z}=$NC @tomketvpn"
+echo -e " ${z}│$NC${z} Developer$NC  ${z}=$NC LION × TUNNEL"
+echo -e " ${z}│$NC${z} Telegram$NC   ${z}=$NC @FanoraVpnTunnel"
 echo -e " ${z}│$NC${z} IP ADDRESS ${z}=$NC $IPVPS${NC}"
 echo -e " ${z}│$NC${z} User$NC       ${z}=$NC $username"
 echo -e " ${z}│$NC${z} Exp Script$NC ${z}=$NC $exp $certifacate Days$NC $sts"
